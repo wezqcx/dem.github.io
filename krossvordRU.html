@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Новогодний кроссворд</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            color: #b22222;
+        }
+        .grid {
+            display: inline-block;
+            margin: 20px auto;
+            border: 2px solid #333;
+        }
+        .grid table {
+            border-collapse: collapse;
+        }
+        .cell {
+            width: 30px;
+            height: 30px;
+            border: 1px solid #333;
+            text-align: center;
+            font-weight: bold;
+            background-color: #fff;
+        }
+        .black {
+            background-color: #000;
+        }
+        .clues {
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: left;
+        }
+        .clues h2 {
+            color: #2e8b57;
+        }
+        .clue {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>🎄 Новогодний кроссворд 🎄</h1>
+
+    <!-- Кроссворд 15x15 -->
+    <div class="grid">
+        <table>
+            <tbody>
+                <!-- Строка 1 -->
+                <tr>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell">д</td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                </tr>
+                <!-- Строка 2 -->
+                <tr>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell">ё</td>
+                    <td class="cell">л</td>
+                    <td class="cell">е</td>
+                    <td class="cell">м</td>
+                    <td class="cell">о</td>
+                    <td class="cell">р</td>
+                    <td class="cell">о</td>
+                    <td class="cell">з</td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                </tr>
+                <!-- Строка 3 -->
+                <tr>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell">г</td>
+                    <td class="cell">и</td>
+                    <td class="cell">р</td>
+                    <td class="cell">л</td>
+                    <td class="cell">я</td>
+                    <td class="cell">н</td>
+                    <td class="cell">д</td>
+                    <td class="cell">а</td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                </tr>
+                <!-- Строка 4 -->
+                <tr>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell">з</td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell">у</td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                </tr>
+                <!-- Строка 5 -->
+                <tr>
+                    <td class="cell black"></td>
+                    <td class="cell">с</td>
+                    <td class="cell">н</td>
+                    <td class="cell">е</td>
+                    <td class="cell">г</td>
+                    <td class="cell">у</td>
+                    <td class="cell">р</td>
+                    <td class="cell">о</td>
+                    <td class="cell">ч</td>
+                    <td class="cell">к</td>
+                    <td class="cell">а</td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                </tr>
+                <!-- Строка 6 -->
+                <tr>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell">л</td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                </tr>
+                <!-- Строка 7 -->
+                <tr>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell">и</td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                </tr>
+                <!-- Строка 8 -->
+                <tr>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell">ц</td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                </tr>
+                <!-- Строка 9 -->
+                <tr>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell">а</td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                </tr>
+                <!-- Строка 10 -->
+                <tr>
+                    <td class="cell black"></td>
+                    <td class="cell">м</td>
+                    <td class="cell">а</td>
+                    <td class="cell">с</td>
+                    <td class="cell">к</td>
+                    <td class="cell">а</td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                </tr>
+                <!-- Строка 11 -->
+                <tr>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                </tr>
+                <!-- Строка 12 -->
+                <tr>
+                    <td class="cell">о</td>
+                    <td class="cell">л</td>
+                    <td class="cell">и</td>
+                    <td class="cell">в</td>
+                    <td class="cell">ь</td>
+                    <td class="cell">е</td>
+                    <td class="cell black"></td>
+                    <td class="cell">с</td>
+                    <td class="cell">а</td>
+                    <td class="cell">л</td>
+                    <td class="cell">ю</td>
+                    <td class="cell">т</td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                </tr>
+                <!-- Строка 13 -->
+                <tr>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell">а</td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                </tr>
+                <!-- Строка 14 -->
+                <tr>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell">н</td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                </tr>
+                <!-- Строка 15 -->
+                <tr>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell">и</td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                    <td class="cell black"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="clues">
+        <h2>По горизонтали:</h2>
+        <div class="clue">2. Волшебный дед с посохом и мешком подарков (7 букв)</div>
+        <div class="clue">3. Украшение ёлки из лампочек или флажков (8 букв)</div>
+        <div class="clue">5. Главная героиня новогодней сказки, внучка Деда Мороза (10 букв)</div>
+        <div class="clue">10. Надевают на бал-маскарад (5 букв)</div>
+        <div class="clue">12. Салат из картошки, колбасы и горошка (6 букв)</div>
+        <div class="clue">12. Фейерверк в полночь (5 букв)</div>
+
+        <h2>По вертикали:</h2>
+        <div class="clue">1. Дед Мороз, но без пробела (7 букв)</div>
+        <div class="clue">2. Погодное явление с белыми хлопьями (4 буквы)</div>
+        <div class="clue">4. Узкая дорога для Деда Мороза (4 буквы)</div>
+        <div class="clue">6. Напиток, который открывают ровно в 00:00 (10 букв)</div>
+        <div class="clue">7. Место, где гуляют и смотрят салют (6 букв)</div>
+        <div class="clue">8. Главное новогоднее дерево (4 буквы)</div>
+    </div>
+
+    <p><em>Подсказка: Все слова связаны с Новым годом!</em></p>
+</body>
+</html>

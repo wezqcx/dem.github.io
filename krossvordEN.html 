@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>New Year Crossword</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #0a4a26, #1e8a4f);
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            color: #d42426;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            font-style: italic;
+            margin-bottom: 25px;
+            color: #f0f0a0;
+        }
+        .grid-container {
+            display: inline-block;
+            background-color: #0d3b20;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 6px 12px rgba(0,0,0,0.5);
+        }
+        table {
+            border-collapse: collapse;
+            margin: 0 auto;
+        }
+        td {
+            width: 40px;
+            height: 40px;
+            border: 2px solid #3a3a3a;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            background-color: #f9f9f9;
+            color: #222;
+        }
+        .black {
+            background-color: #2c552c;
+        }
+        .number {
+            position: relative;
+            top: -18px;
+            left: -15px;
+            font-size: 10px;
+            color: #ffcc00;
+            font-weight: bold;
+        }
+        .clues {
+            max-width: 600px;
+            margin: 25px auto;
+            background: rgba(10, 70, 30, 0.7);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: left;
+        }
+        .clues h2 {
+            color: #ffd700;
+            margin-top: 20px;
+        }
+        .clue {
+            margin: 6px 0;
+        }
+        .star {
+            color: gold;
+        }
+    </style>
+</head>
+<body>
+    <h1>🎄 New Year Crossword 🎄</h1>
+    <p class="subtitle">Fill in the blanks with festive English words!</p>
+
+    <!-- Crossword grid 12x12 -->
+    <div class="grid-container">
+        <table>
+            <tbody>
+                <!-- Row 1 -->
+                <tr>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                </tr>
+                <!-- Row 2 -->
+                <tr>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td><span class="number">1</span>b</td>
+                    <td>a</td>
+                    <td>u</td>
+                    <td>b</td>
+                    <td>l</td>
+                    <td>e</td>
+                </tr>
+                <!-- Row 3 -->
+                <tr>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td><span class="number">2</span>d</td>
+                    <td>e</td>
+                    <td>c</td>
+                    <td>e</td>
+                    <td>m</td>
+                    <td>b</td>
+                    <td>e</td>
+                    <td>r</td>
+                    <td class="black"></td>
+                </tr>
+                <!-- Row 4 -->
+                <tr>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td>i</td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                </tr>
+                <!-- Row 5 -->
+                <tr>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td>r</td>
+                    <td class="black"></td>
+                    <td><span class="number">3</span>s</td>
+                    <td>a</td>
+                    <td>n</td>
+                    <td>t</td>
+                    <td>a</td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                </tr>
+                <!-- Row 6 -->
+                <tr>
+                    <td><span class="number">4</span>f</td>
+                    <td>i</td>
+                    <td>r</td>
+                    <td>e</td>
+                    <td>c</td>
+                    <td>r</td>
+                    <td>a</td>
+                    <td>c</td>
+                    <td>k</td>
+                    <td>e</td>
+                    <td>r</td>
+                    <td class="black"></td>
+                </tr>
+                <!-- Row 7 -->
+                <tr>
+                    <td>l</td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                </tr>
+                <!-- Row 8 -->
+                <tr>
+                    <td>a</td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                </tr>
+                <!-- Row 9 -->
+                <tr>
+                    <td>s</td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                </tr>
+                <!-- Row 10 -->
+                <tr>
+                    <td>s</td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                </tr>
+                <!-- Row 11 -->
+                <tr>
+                    <td>g</td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                </tr>
+                <!-- Row 12 -->
+                <tr>
+                    <td>l</td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                    <td class="black"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="clues">
+        <h2>► Across</h2>
+        <div class="clue"><b>1.</b> A shiny Christmas tree ornament (6)</div>
+        <div class="clue"><b>2.</b> The last month of the year (8)</div>
+        <div class="clue"><b>3.</b> Jolly gift-giver in red suit (5)</div>
+        <div class="clue"><b>4.</b> Loud explosive toy used in celebrations (11)</div>
+
+        <h2>▼ Down</h2>
+        <div class="clue"><b>1.</b> Symbol of time running out — sand flows from top to bottom (9)</div>
+    </div>
+
+    <p><em class="star">✨ Happy New Year! ✨</em></p>
+</body>
+</html>
